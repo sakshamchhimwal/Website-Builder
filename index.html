@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Website Builder</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <script src="https://kit.fontawesome.com/5f125bd884.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="pagepacker">
+
+      <!-- ************************************************* -->
+      <div class="optionsBar grid-item">
+        <p>Choose Background Colour
+          <button type="button" name="button" class="coloroptions Dropdown">
+            <i class="fas fa-chevron-circle-down"></i>
+          </button>
+        </p>
+        <div class="colorset">
+          <div id="picker"></div>
+          <p id="colorValue"></p>
+        </div>
+        <hr style="width: 80%; height:4px; background-color: black; border:none;">
+        <p>Choose NavBar Style
+          <button type="button" name="button" class="navoptions Dropdown">
+            <i class="fas fa-chevron-circle-down"></i>
+          </button>
+          <div class="navset">
+            <ul style="list-style-type:none; padding: 0; margin: 0;">
+              <li>
+                <button type="button" name="button" class="navbutton1"></button>
+              </li>
+              <li>
+                <button type="button" name="button" class="navbutton2"></button>
+              </li>
+              <li>
+                <button type="button" name="button" class="navbutton3"></button>
+              </li>
+              <li>
+                <button type="button" name="button" class="navbutton4"></button>
+              </li>
+              <li>
+                <button type="button" name="button" class="navbutton5"></button>
+              </li>
+              <li>
+                <button type="button" name="button" class="navbuttoncustom">Custom NavBar</button>
+                <div id="navbarpickerBg" class="navbarpicker">For Texts</div>
+                <div id="navbarpickerBd" class="navbarpicker"><br>For Backgorund</div>
+                <br>
+                <button type="button" name="button" class="set">SET</button>
+              </li>
+            </ul>
+          </div>
+        </p>
+        <hr style="width: 80%; height:4px; background-color: black; border:none;">
+        <p>Create Div
+          <button type="button" name="button" class="divoptions Dropdown">
+            <i class="fas fa-chevron-circle-down"></i>
+          </button>
+          <div class="divset">
+            <button type="button" name="button" class='divbutton'>Click Here To Start Making Div</button>
+            <div class="divdetails">
+              <form class="divform" action="" method="post">
+                <input type="number" id="height" value="" placeholder="Height" class="divinput">
+                <input type="number" id="width" value="" placeholder="Width" class="divinput">
+                <button type="button" name="button" class="divDetailsSubmit">Make A Div</button>
+              </form>
+            </div>
+          </div>
+        </p>
+        <hr style="width: 80%; height:4px; background-color: black; border:none;">
+        <div class="newDivDetails">
+          <div id="colorpickerNewDiv"></div>
+        </div>
+      </div>
+
+      <!-- *********************************************** -->
+
+      <div class="displayBar grid-item">
+        <nav class="pageNavBar">
+          <div class="navText" style="height: 100%; margin:auto;">
+            <a href="#" style="display:inline; font-size: 1.8rem; padding: 5px 5px; height:100%;">Brand Name</a>
+            <ul style="list-style-type:none; overflow:hidden; display:inline;">
+              <li class="navList">
+                <a href="#" class="navLink">About</a>
+              </li>
+              <li class="navList">
+                <a href="#" class="navLink">Contact</a>
+              </li>
+              <li class="navList">
+                <a href="#" class="navLink">Home</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- ************************************************** -->
+
+    </div>
+    <script type="text/javascript" src="index.js" charset="utf-8"></script>
+
+  </body>
+
+</html>

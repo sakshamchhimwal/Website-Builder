@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.pagepacker{
+  overflow: hidden;
+  position: absolute;
+  width:100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns : auto auto;
+  padding: 0;
+  margin: 0;
+}
+/* ************************* */
+.optionsBar{
+  position: relative;
+  margin: 0;
+  overflow-x: scroll;
+  padding: 0  5px;
+  height: 100%;
+  width: 20vw;
+  background-color: #6669ff;
+}
+.colorpicker{
+  border-radius: 100%;
+  border-style: none;
+  border-color: transparent;
+}
+.colorset,.navset{
+  display: none;
+}
+.navbutton1{
+  border-width: 6.5px;
+  background-color: white;
+  border-color: black;
+  width: 100%;
+  height: 20px;
+  border-style: solid;
+}
+.navbutton2{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: black;
+  border-color: white;
+  width: 100%;
+  height: 20px;
+}
+.navbutton3{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: grey;
+  border-color: black;
+  width: 100%;
+  height: 20px;
+}
+.navbutton4{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: white;
+  border-color: grey;
+  width: 100%;
+  height: 20px;
+}
+.navbutton5{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: #0ab5c4;
+  border-color: #020040;
+  width: 100%;
+  height: 20px;
+}
+.navbuttoncustom{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: transparent;
+  border-color: transparent;
+  width: 100%;
+  height: 20px;
+}
+.navbarpicker{
+  display: none;
+}
+li{
+  padding: 4px 0;
+}
+.Dropdown{
+  background-color: transparent;
+  border: none;
+}
+.customNav{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: white;
+  border-color: white;
+  width: 100%;
+  height: 20px;
+  padding: auto;
+}
+.set{
+  border-style: solid;
+  border-width: 6.5px;
+  background-color: black;
+  border-color: black;
+  width: 100%;
+  height: 20px;
+  margin: auto;
+  text-align: center;
+  display: none;
+  color: white;
+}
+.divbutton{
+  width: 100%;
+  height: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+  color: white;
+}
+.divset,.divdetails{
+  padding: 10px;
+  display: none;
+}
+.divinput{
+  margin: 3px;
+  padding: 5px;
+  width: 90%;
+}
+.newDivDetails{
+  display: none;
+}
+/* **************************** */
+.displayBar{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  width: 80vw;
+  height: 100vh;
+  background-color: yellow;
+}
+.pageNavBar{
+  width: 80vw;
+  height: 6vh;
+  display: none;
+}
+.navList{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 5px 5px 0px 5px;
+  font-size: 1.2rem;
+}
+a,.navLink{
+  text-decoration: none;
+  color: inherit;
+}
